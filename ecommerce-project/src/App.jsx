@@ -7,6 +7,9 @@ import { OrdersPage } from './pages/orders/OrdersPage';
 import { Tracking } from './pages/Tracking'
 import './App.css'
 
+// ✅ Use environment variable for backend URL
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 function App() {
   const [cart, setCart] = useState([]);
 
