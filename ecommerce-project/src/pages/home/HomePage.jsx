@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from '../../api';
 import { useEffect, useState } from 'react';
 import { Header } from '../../components/Header';
 import { ProductsGrid } from './ProductsGrid';
